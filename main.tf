@@ -24,7 +24,7 @@ resource "azurerm_network_security_group" "catapp-sg" {
 
   security_rule {
     name                       = "HTTP"
-    priority                   = 100
+    priority                   = 250
     direction                  = "Inbound"
     access                     = "Allow"
     protocol                   = "Tcp"
